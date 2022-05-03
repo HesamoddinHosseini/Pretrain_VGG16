@@ -3,7 +3,14 @@
 
 Question)
 
-In this exercise you have to work with the most Pre-train networks and evaluate their performance to do a few things. For this purpose, a database is provided. First of all , download the data related to real and painting, and according to the image below, select 10 classes from the classes in this photo. Then train and test your pre-train network on real data. Do this for the VGG16 network. Check how many layers should be frozen and how many network parameters this number contains.
+1)In this exercise you have to work with the most Pre-train networks and evaluate their performance to do a few things. For this purpose, a database is provided. First of all , download the data related to real and painting, and according to the image below, select 10 classes from the classes in this photo. Then train and test your pre-train network on real data. Do this for the VGG16 network. Check how many layers should be frozen and how many network parameters this number contains.
+
+
+Run:Pretrain_VGG16.ipynb
+
+2)In the next step, test your trained grid on painting data. To perform the test, use the network trained in the previous step and do not retrain.
+
+Run:Pretrain_VGG16_q2.ipynb
 
 
 
